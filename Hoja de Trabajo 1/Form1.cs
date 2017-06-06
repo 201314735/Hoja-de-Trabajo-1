@@ -72,5 +72,20 @@ namespace Hoja_de_Trabajo_1
 
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            char[] cadena1 = textBox1.Text.ToCharArray();
+            char[] cadena2 = textBox2.Text.ToCharArray();
+
+            Array.Reverse(cadena1);
+            Array.Reverse(cadena2);
+
+            string nuevac1 = new string(cadena1);
+            string nuevac2 = new string(cadena2);
+
+            label5.Text = nuevac1 + " " + nuevac2;
+
+        }
     }
 }
