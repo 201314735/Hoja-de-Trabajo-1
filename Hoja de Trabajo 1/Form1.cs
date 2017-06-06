@@ -87,5 +87,17 @@ namespace Hoja_de_Trabajo_1
             label5.Text = nuevac1 + " " + nuevac2;
 
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int A = Convert.ToInt32(textBox1.Text);
+            int X = Convert.ToInt32(textBox2.Text);
+            int B = Convert.ToInt32(textBox3.Text);
+            int Y = (B*X)/A;
+
+            label5.Text = Convert.ToString(Y);
+
+
+        }
     }
 }
