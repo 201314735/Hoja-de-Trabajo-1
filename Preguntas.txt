@@ -1,0 +1,14 @@
+¿Qué entiende como "commit"?
+Actualizar o modificar el repositorio.
+
+¿Qué entiende como "merge"?
+Fusionar una rama con la raíz del programa.
+
+¿Cuál es la diferencia entre "Pull" y "Push"?
+"Pull" permite recibir los datos de los repositorios 
+para fusionarlos con los cambios remotos y "Push" permite
+actualizar los datos ya modificados en el repositorio online.
+
+¿Cómo utilizar ramas ("branches") en la aplicación?
+Se escoge el nombre de la rama separandose del proyecto original, 
+usando checkout y escribiendo el nombre de la rama se selecciona la rama.
